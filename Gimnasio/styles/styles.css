@@ -5,10 +5,6 @@ table, th, td, tr{
 
 }
 
-table{
-    width: 1200px;
-}
-
 .info {
     width: 150px;
     text-align: center;
@@ -16,10 +12,15 @@ table{
 
 th{
     text-transform: uppercase;
+    font-size: large;
 }
 
 td{
     text-align: justify;
+}
+
+.demas {
+    text-align: center;
 }
 
 .pokemones{
@@ -30,3 +31,24 @@ td{
 #papasfritas{
     height: 400px;
 }
+
+.CUARTETO {
+    height: 200px;
+}
+
+#Nombre{
+    width: 150px;
+}
+
+#jueves {
+    height: 200px;
+}
+
+#descripcion {
+    width: 400px;
+}
+
+body{
+    background-color:rgb(36, 52, 65);
+}
+
