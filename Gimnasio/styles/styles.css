@@ -1,34 +1,76 @@
-table, th, td, tr{
-    border: 2px black solid;
-    border-collapse: collapse;
+#logo {
+    width: 700px;
+}
+
+.menú {
+    background: rgba(19, 60, 184, 0.674);
+    border: 4px solid #162ac0;
+    /* background: rgba(222, 170, 25, 0.948);
+    border: 4px solid #ff9900;*/
+    display: inline-block;
+    padding: 25px;
+    margin: 2%;
+    border-radius: 15px;
+    color: rgb(236, 214, 14) ;
+}
+
+table,
+th,
+td,
+tr {
+    border: 2px rgb(158, 79, 9) solid;
+    border-collapse: unset;
+    color: rgb(184, 9, 9);
     text-align: center;
+    position: static;
+    border-radius: 15px;
+    font-size: large;
 
 }
+
+a {
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(246, 255, 0);
+}
+
+
 
 .info {
     width: 150px;
     text-align: center;
+    color: brown;
+    text-decoration: underline;
 }
 
-th{
+.nombretabla {
+    width: 195px;
+    text-align: center;
+    font-size: x-large;
     text-transform: uppercase;
-    font-size: large;
+
 }
 
-td{
+th {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+td {
     text-align: justify;
+    font-style: italic;
 }
 
 .demas {
     text-align: center;
 }
 
-.pokemones{
-    
+.pokemones {
+
     height: 200px;
 }
 
-#papasfritas{
+#papasfritas {
     height: 400px;
 }
 
@@ -36,7 +78,7 @@ td{
     height: 200px;
 }
 
-#Nombre{
+#Nombre {
     width: 150px;
 }
 
@@ -48,7 +90,282 @@ td{
     width: 400px;
 }
 
-body{
-    background-color:rgb(36, 52, 65);
+body {
+    background-image: url(/assets/images/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(10px);
 }
 
+
+
+
+.medallas {
+    width: 200px;
+}
+
+#principal {
+    background: rgba(246, 255, 0, 0.542);
+    border: 3px solid #0b4bcc;
+    display: inline-block;
+    padding: 10px;
+    margin: 0%;
+    border-radius: 15px;
+    color: rgb(68, 18, 206);
+}
+
+/* Medalla Roca */
+
+#h1medallaRoca {
+    background: rgba(92, 104, 145, 0.792);
+    border: 3px solid #4f4e64;
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0%;
+}
+
+#medallaRoca {
+    background-image: url(/assets/images/fondo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(5px);
+
+}
+
+.pmedallaRoca {
+    background: rgba(101, 108, 135, 0.444);
+    border: 3px solid #706e8f;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0%;
+}
+
+.regresoRoca {
+    background-color: rgba(120, 127, 151, 0.778);
+    text-transform: uppercase;
+    border: #595667 2px solid;
+    padding: 8px;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+}
+
+/*Medalla Arcoiris*/
+.pmedallaArcoiris {
+    background: rgba(24, 223, 87, 0.623);
+    border: 3px solid #8ef802;
+    display: inline-block;
+    color: white;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 0%;
+    font-size: large;
+}
+
+.p2medallaArcoiris {
+    background: rgba(24, 223, 87, 0.623);
+    border: 3px solid #8ef802;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.p3medallaArcoiris {
+    background: rgba(213, 24, 223, 0.623);
+    border: 3px solid #f802f4;
+    display: inline-block;
+    color: white;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 0%;
+    font-size: large;
+}
+
+.p4medallaArcoiris {
+    background: rgba(213, 24, 223, 0.623);
+    border: 3px solid #f802f4;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+.p5medallaArcoiris {
+    background: rgba(213, 223, 24, 0.623);
+    border: 3px solid #d3f802;
+    display: inline-block;
+    color: white;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 0%;
+    font-size: large;
+}
+
+.p6medallaArcoiris {
+    background: rgba(213, 223, 24, 0.859);
+    border: 3px solid #d3f802;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+
+#h1medallaArcoiris {
+    background: rgba(255, 0, 0, 0.464);
+    border: 3px solid #ff0000;
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0%;
+}
+
+#medallaArcoiris {
+    background-image: url(/assets/images/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(5px);
+
+}
+
+.regresoArcoiris {
+    background: rgba(255, 0, 0, 0.464);
+    border: 3px solid #ff0000;
+    text-transform: uppercase;
+
+    padding: 8px;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+}
+
+/*Medalla Alma*/
+#medallaAlma {
+    background-image: url(/assets/images/fondo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(5px);
+
+}
+
+.pmedallaAlma {
+    background: rgba(190, 223, 24, 0.623);
+    border: 3px solid #f8f802;
+    display: inline-block;
+    color: white;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 0%;
+    font-size: large;
+}
+
+#h1medallaAlma {
+    background: rgba(255, 0, 0, 0.464);
+    border: 3px solid #ff0000;
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0%;
+}
+
+.regresoAlma {
+    background: rgba(255, 0, 0, 0.464);
+    border: 3px solid #ff0000;
+    text-transform: uppercase;
+
+    padding: 8px;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+}
+
+/*Medalla Tierra*/
+
+.regresoTierra {
+    background: rgba(162, 86, 5, 0.464);
+    border: 3px solid #873c0a;
+    text-transform: uppercase;
+
+    padding: 8px;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+}
+
+#h1medallaTierra {
+    background: rgba(162, 86, 5, 0.464);
+    border: 3px solid #873c0a;
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0%;
+}
+
+#medallaTierra {
+    background-image: url(/assets/images/fondo5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(30px);
+
+}
+
+/* body{
+    background-image: url('/assets/Images/bobbycaldwell.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.flex {
+    height: 400px;
+    display: flex;
+    justify-content:space-evenly;
+    /* justify-content: space-evenly; /
+    / justify-content: center;
+    /* justify-content: start;
+    /* justify-content: end; /
+    / justify-content: flex-start; /
+    / justify-content: flex-end; /
+    / justify-content: space-around; /
+    / justify-content: space-between; /
+ 
+    align-items: center;
+
+    flex-wrap: wrap; 
+    / Envuelve para mostrarlo en en cascada. /
+    / flex-wrap: nowwrap; /
+    / flex-wrap: wrap-reverse; forma inversa/ 
+
+    / flex-direction: column; 
+
+    flex-flow: row wrap;
+
+}
+
+.flex > div {
+    width: 100px;
+    margin: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: var(--primary);
+    border: 3px solid var(--contrast);
+} 
+*/
