@@ -31,7 +31,7 @@ tr {
 a {
     text-decoration: none;
     font-size: x-large;
-    color: rgb(246, 255, 0);
+    color: rgb(255, 255, 255);
 }
 
 
@@ -72,19 +72,16 @@ td {
 
 #papasfritas {
     height: 400px;
+    border-radius: 30px;
 }
 
-.CUARTETO {
-    height: 200px;
-}
+
 
 #Nombre {
     width: 150px;
 }
 
-#jueves {
-    height: 200px;
-}
+
 
 #descripcion {
     width: 400px;
@@ -144,16 +141,18 @@ body {
     padding: 10px;
     border-radius: 15px;
     margin: 0%;
+    font-size: x-large;
 }
 
 .regresoRoca {
     background-color: rgba(120, 127, 151, 0.778);
     text-transform: uppercase;
     border: #595667 2px solid;
-    padding: 8px;
+    padding: 15px;
     color: white;
     border-radius: 15px;
     font-size: large;
+    font-weight: bold;
 }
 
 /*Medalla Arcoiris*/
@@ -246,8 +245,8 @@ body {
     background: rgba(255, 0, 0, 0.464);
     border: 3px solid #ff0000;
     text-transform: uppercase;
-
-    padding: 8px;
+    font-weight: bold;
+    padding: 15px;
     color: white;
     border-radius: 15px;
     font-size: large;
@@ -288,8 +287,8 @@ body {
     background: rgba(255, 0, 0, 0.464);
     border: 3px solid #ff0000;
     text-transform: uppercase;
-
-    padding: 8px;
+    font-weight: bold;
+    padding: 15px;
     color: white;
     border-radius: 15px;
     font-size: large;
@@ -301,8 +300,8 @@ body {
     background: rgba(162, 86, 5, 0.464);
     border: 3px solid #873c0a;
     text-transform: uppercase;
-
-    padding: 8px;
+    font-weight: bold;
+    padding: 15px;
     color: white;
     border-radius: 15px;
     font-size: large;
@@ -327,45 +326,120 @@ body {
 
 }
 
-/* body{
-    background-image: url('/assets/Images/bobbycaldwell.jpg');
+/*Medalla Trueno*/
+#medallaTrueno {
+    background-image: url(/assets/images/fondo7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.flex {
-    height: 400px;
-    display: flex;
-    justify-content:space-evenly;
-    /* justify-content: space-evenly; /
-    / justify-content: center;
-    /* justify-content: start;
-    /* justify-content: end; /
-    / justify-content: flex-start; /
-    / justify-content: flex-end; /
-    / justify-content: space-around; /
-    / justify-content: space-between; /
- 
-    align-items: center;
-
-    flex-wrap: wrap; 
-    / Envuelve para mostrarlo en en cascada. /
-    / flex-wrap: nowwrap; /
-    / flex-wrap: wrap-reverse; forma inversa/ 
-
-    / flex-direction: column; 
-
-    flex-flow: row wrap;
+    backdrop-filter: blur(8px);
 
 }
 
-.flex > div {
-    width: 100px;
-    margin: 20px;
-    font-size: 1.5rem;
-    text-align: center;
-    background-color: var(--primary);
-    border: 3px solid var(--contrast);
-} 
-*/
+#h1medallaTrueno {
+    background: rgba(255, 255, 255, 0.671);
+    border: 3px solid #d7d7d7;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0%;
+}
+
+.regresoTrueno {
+    background: rgba(255, 255, 255, 0.671);
+    border: 3px solid #d7d7d7;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    font-size: large;
+}
+
+#pmedallaTrueno {
+    background: rgba(255, 255, 255, 0.671);
+    border: 3px solid #d7d7d7;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0%;
+}
+
+#divmedallaTrueno {
+    background: rgba(255, 255, 255, 0.671);
+    border: 3px solid #d7d7d7;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0%;
+}
+
+/* Medalla Volcán*/
+#medallaVolcan {
+    background-image: url(/assets/images/fondocuarteto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(8px);
+
+}
+
+#h1medallaVolcan {
+    background: rgba(119, 103, 103, 0.556);
+    border: 3px solid #514d4d;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0%;
+}
+
+#pmedallaVolcan {
+    background: rgba(119, 103, 103, 0.556);
+    border: 3px solid #514d4d;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 25px;
+    font-size: x-large;
+    margin: 0%;
+    width: auto;
+    text-align: justify;
+}
+
+#juevesmedallaVolcan {
+    background: rgba(119, 103, 103, 0.556);
+    border: 3px solid #514d4d;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px;
+    font-size: x-large;
+    margin: 0%;
+    width: auto;
+    text-align: justify;
+}
+
+.regresoVolcan {
+    background: rgba(119, 103, 103, 0.556);
+    border: 4px solid #514d4d;
+    text-transform: uppercase;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.CUARTETO {
+    height: 450px;
+    border-radius: 15px;
+}
+
+#jueves {
+    height: 600px;
+}

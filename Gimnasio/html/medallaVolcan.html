@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,16 @@
     <title>Medalla Volcán</title>
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
-<body>
-    <h1>Medalla Volcán</h1>
-    <p><a href="/index.html">Regresar</a></p>
-    <hr>
-    <!--
+
+<body id="medallaVolcan">
+    <center>
+        <h1 id="h1medallaVolcan">MEDALLA VOLCÁN</h1>
+        <br><br>
+        <img src="/assets/images/Medalla_Volcán.png" alt="" class="medallas">
+        <br><br>
+
+
+        <!--
     • Medalla Volcán: Crea un documento HTML con estilos CSS donde muestres
     información sobre tu banda o cantante favorito. Deberá incluir lo siguiente:
     - Nombre
@@ -19,33 +25,53 @@
     - Breve biografía
     - Discografía favorita
     - Enlace a Spotify y YouTube.-->
-    <center>
-    <table>
-        <caption><h2>EL CUARTETO DE NOS</h2></caption>
-        <thead>
-            <tr> <!--Fila 1 -->
-                <th id="Nombre">Nombre</th>
-                <th>Imágenes</th>
-                <th>Descripción</th>
-                <th>Discografía favorita</th>
-                <th>Enlace a Youtube</th>
-            </tr>
-        </thead>
 
-        <tbody>
-            <tr> <!--Fila 2-->
-                <td class="demas">El Cuarteto de Nos</td>
-                <td><center><img class="CUARTETO" src="/assets/images/cuarteto1.jpeg" alt=""><br>
-                <img src="/assets/images/cuarteto2.jpg" alt="" class="CUARTETO"><br>
-                <img src="/assets/images/cuarteto3.jpeg" alt="" class="CUARTETO"><br>
-                <img src="/assets/images/cuarteto4.png" alt="" class="CUARTETO"></center></td>
-                <td id="descripcion"><p>El Cuarteto de Nos es una banda de rock uruguaya formada en Montevideo en 1980.​ Está integrada por el cantante y guitarrista Roberto Musso, el bajista y corista Santiago Tavella, el baterista Álvaro Pintos, el guitarrista y corista Gustavo Antuña y el tecladista Santiago Marrero.</p></td>
-                <td class="demas"><p>Jueves</p><br><center>
-                <img id="jueves" src="/assets/images/jueves.jpg" alt=""></center><p>2019</p></td>
-                <td class="info">Clic para más <a href="https://music.youtube.com/channel/UCSMsV0YVTmlh_XpkCFW3Xmw?feature=share" target="_blank">info</a></td>
-            </tr>
-        </tbody>
-    </table>
-</center>
+        <h1 id="h1medallaVolcan">El Cuarteto De Nos</h1>
+        <br><br>
+        <audio controls>
+            <source src="/assets/audio/elhijodehernandez.mp3" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+        </audio>
+        <br><br>
+        <img class="CUARTETO" src="/assets/images/cuarteto1.jpeg" alt="">
+        <img src="/assets/images/cuarteto2.jpg" alt="" class="CUARTETO">
+        <img src="/assets/images/cuarteto3.jpeg" alt="" class="CUARTETO">
+        <img src="/assets/images/cuarteto4.png" alt="" class="CUARTETO">
+        <br><br>
+        <p id="pmedallaVolcan">El Cuarteto de Nos es una banda de rock uruguaya formada en Montevideo en 1980.
+            <br>​<br>Está integrada por el cantante y guitarrista Roberto Musso, el bajista y corista Santiago Tavella,
+            el baterista Álvaro Pintos, el guitarrista y corista Gustavo Antuña y el tecladista Santiago Marrero.
+            <br><br>
+            Hicieron su debut en el año 1984 con el lanzamiento del álbum split Alberto Wolf / El Cuarteto de Nos, en
+            colaboración con el músico uruguayo Alberto Wolf. A partir de 1987 comenzaron a realizar su primer álbum en
+            solitario Soy una arveja, donde el ambiente se centra en una ciudad imaginaria llamada Tajo —ciudad creada
+            por los hermanos Roberto y Ricardo Musso—. Un año después lanzaron Emilio García (1988), en donde parte
+            desde la misma estructura que su antecesor. En 1991 salió a la venta Canciones del corazón, último disco
+            lanzado bajo la discográfica Orfeo. Después de varios desacuerdos con el sello deciden afiliarse con Ayuí /
+            Tacuabé, y en 1994 salió al mercado Otra Navidad en las Trincheras, en donde obtuvo éxito tanto en su país
+            de origen como en occidente, logrando llegar a las 6 000 copias y ser certificado platino y oro. Un año
+            después Barranca abajo (1995) fue lanzado en donde el disco mantiene un hilo conceptual sobre la vida de un
+            personaje ficticio creado por la banda llamado José Barrancas; sin embargo, no logró obtener tanto
+            reconocimiento como su antecesora.
+        </p>
+        <br><br>
+        <h1 id="juevesmedallaVolcan">
+            <center> JUEVES
+                <br>
+                <br>
+                <img id="jueves" src="/assets/images/jueves.jpg" alt="">
+                <br><br>
+                Discografía de 2019
+            </center>
+        </h1>
+        <br><br>
+        <h2 id="h1medallaVolcan"><a href="https://music.youtube.com/channel/UCSMsV0YVTmlh_XpkCFW3Xmw?feature=share"
+                target="_blank">Enlace para Youtube Músic</a></h2>
+        <br><br>
+
+
+    </center>
+    <input class="regresoVolcan" type="button" value="Página anterior" onClick="history.go(-1);">
 </body>
+
 </html>
