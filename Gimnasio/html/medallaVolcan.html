@@ -28,7 +28,7 @@
 
         <h1 id="h1medallaVolcan">El Cuarteto De Nos</h1>
         <br><br>
-        <audio controls>
+        <audio id="rolon" controls autoplay>
             <source src="/assets/audio/elhijodehernandez.mp3" type="audio/mp3">
             Tu navegador no soporta audio HTML5.
         </audio>
@@ -72,6 +72,10 @@
 
     </center>
     <input class="regresoVolcan" type="button" value="Página anterior" onClick="history.go(-1);">
+    <script>
+        var audio = document.getElementById("rolon");
+        audio.volume = 0.12;
+    </script>
 </body>
 
 </html>

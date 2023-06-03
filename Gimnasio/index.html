@@ -6,14 +6,13 @@
         <meta name="viewport" content="Ejercicio HTML - Corrige los errores">
         <title>Gimnasio Pokemon</title>
         <link rel="stylesheet" href="/styles/styles.css">
-        <link rel="shortcut icon" href="/assets/images/logo.png">
     </head>
 
     <body>
         <center>
             <img id="logo" src="/assets/images/International_Pokémon_logo.svg.png" alt="">
             <br><br>
-            <audio controls>
+            <audio id="rolon" controls autoplay preload="auto" loop>
                 <source src="/assets/audio/onlymp3.to - Pokémon - ¡Atrápalos Ya!.mp3" type="audio/mp3">
                     Tu navegador no soporta audio HTML5.
             </audio>
@@ -30,7 +29,11 @@
             <h3 class="menú"><a href="/html/medallaTrueno.html">MEDALLA TRUENO</a></h3>
             <h3 class="menú"><a href="/html/medallaVolcan.html">MEDALLA VOLCÁN</a></h3>
         </center>
-<p style="color: white; font-style: italic;">Inspirado en el proyecto de Kevin</p>
+        <p style="color: white; font-style: italic;">Inspirado en el proyecto de Kevin</p>
+        <script>
+            var audio = document.getElementById("rolon");
+            audio.volume = 0.35;
+        </script>
     </body>
 
     </html>
